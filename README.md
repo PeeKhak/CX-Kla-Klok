@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CX Kla Klok</title>
+    <title>CX Kla Klok Thai Fish Prawn Crab</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -47,8 +47,8 @@
             font-weight: bold;
         }
         .reel img {
-            width: 40px;
-            height: 40px;
+            width: 60px;
+            height: 60px;
             object-fit: contain;
         }
         .betting-area {
@@ -70,8 +70,8 @@
             justify-content: center;
         }
         .bet-option img {
-            width: 20px;
-            height: 20px;
+            width: 30px;
+            height: 30px;
             margin-right: 5px;
             vertical-align: middle;
         }
@@ -116,19 +116,19 @@
 </head>
 <body>
     <div class="game-container">
-        <h1>Ly Happy Thai Fish Prawn Crab</h1>
+        <h1>CX Kla Klok Thai Fish Prawn Crab</h1>
         <div class="reels">
             <div class="reel" id="reel1">?</div>
             <div class="reel" id="reel2">?</div>
             <div class="reel" id="reel3">?</div>
         </div>
         <div class="betting-area" id="bettingArea">
-            <div class="bet-option" data-symbol="🐟">🐟 Fish</div>
-            <div class="bet-option" data-symbol="🦐">🦐 Prawn</div>
-            <div class="bet-option" data-symbol="🦀">🦀 Crab</div>
-            <div class="bet-option" data-symbol="Ly Happy"><img src="https://i.imgur.com/5hNVSOL.png" alt="Ly Happy"> Gourd</div>
-            <div class="bet-option" data-symbol="🐔">🐔 Chicken</div>
-            <div class="bet-option" data-symbol="🐅">🐅 Tiger</div>
+            <div class="bet-option" data-symbol="fish"><img src="https://i.imgur.com/4AyloZz.png" alt="Ly Sad"> Ly Sad</div>
+            <div class="bet-option" data-symbol="prawn"><img src="https://i.imgur.com/oc7qJZ7.png" alt="Ry Nguy Dek"> Ry Nguy Dek</div>
+            <div class="bet-option" data-symbol="crab"><img src="https://i.imgur.com/NMtaXHY.png" alt="Vath Tnam"> Vath Tnam</div>
+            <div class="bet-option" data-symbol="gourd"><img src="https://i.imgur.com/5hNVSOL.png" alt="Ly Happy"> Ly Happy</div>
+            <div class="bet-option" data-symbol="chicken"><img src="https://i.imgur.com/I0UddAN.png" alt="Fake Thina"> Fake Thina</div>
+            <div class="bet-option" data-symbol="tiger"><img src="https://i.imgur.com/h7G3tUf.png" alt="Ku Bek Ma"> Ku Bek Ma</div>
         </div>
         <button id="spinButton">Spin (10 Coins)</button>
         <button id="playTenButton">Play 10 Times</button>
@@ -137,14 +137,14 @@
     </div>
 
     <script>
-        console.log('Risk team Kla Klok script started');
+        console.log('CX Kla Klok Thai Fish Prawn Crab script started');
         const symbols = [
-            { id: '🐟', display: '🐟' },
-            { id: '🦐', display: '🦐' },
-            { id: '🦀', display: '🦀' },
-            { id: 'Ly Happy', display: '<img src="https://i.imgur.com/5hNVSOL.png" alt="Ly Happy">' },
-            { id: '🐔', display: '🐔' },
-            { id: '🐅', display: '🐅' }
+            { id: 'fish', display: '<img src="https://i.imgur.com/4AyloZz.png" alt="Ly Sad">' },
+            { id: 'prawn', display: '<img src="https://i.imgur.com/oc7qJZ7.png" alt="Ry Nguy Dek">' },
+            { id: 'crab', display: '<img src="https://i.imgur.com/NMtaXHY.png" alt="Vath Tnam">' },
+            { id: 'gourd', display: '<img src="https://i.imgur.com/5hNVSOL.png" alt="Ly Happy">' },
+            { id: 'chicken', display: '<img src="https://i.imgur.com/I0UddAN.png" alt="Fake Thina">' },
+            { id: 'tiger', display: '<img src="https://i.imgur.com/h7G3tUf.png" alt="Ku Bek Ma">' }
         ];
         const reels = [
             document.getElementById('reel1'),

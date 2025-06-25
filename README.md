@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ly Happy Thai Fish Prawn Crab</title>
+    <title>CX Kla Klok</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -126,7 +126,7 @@
             <div class="bet-option" data-symbol="🐟">🐟 Fish</div>
             <div class="bet-option" data-symbol="🦐">🦐 Prawn</div>
             <div class="bet-option" data-symbol="🦀">🦀 Crab</div>
-            <div class="bet-option" data-symbol="gourd"><img src="https://i.imgur.com/5hNVSOL.png" alt="Gourd"> Gourd</div>
+            <div class="bet-option" data-symbol="Ly Happy"><img src="https://i.imgur.com/5hNVSOL.png" alt="Ly Happy"> Gourd</div>
             <div class="bet-option" data-symbol="🐔">🐔 Chicken</div>
             <div class="bet-option" data-symbol="🐅">🐅 Tiger</div>
         </div>
